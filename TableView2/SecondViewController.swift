@@ -15,7 +15,7 @@ class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        titleLabel.text = secondText
+        titleLabel.text = "\(secondText)をポロモードに設定する"
     }
     
 

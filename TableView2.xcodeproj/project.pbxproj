@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4A6E284AE1E246F689E56374 /* Pods_TableView2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8A680BB2ADBCBEBFFC87DC /* Pods_TableView2.framework */; };
+		950230AF27B0E58900FEE67E /* CoustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950230AE27B0E58900FEE67E /* CoustomCell.swift */; };
 		95F4039E27AB7D0500C3584B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F4039D27AB7D0500C3584B /* AppDelegate.swift */; };
 		95F403A027AB7D0500C3584B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F4039F27AB7D0500C3584B /* SceneDelegate.swift */; };
 		95F403A227AB7D0500C3584B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F403A127AB7D0500C3584B /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		4F22E8B935218A827ADD1ABB /* Pods-TableView2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView2.release.xcconfig"; path = "Target Support Files/Pods-TableView2/Pods-TableView2.release.xcconfig"; sourceTree = "<group>"; };
+		950230AE27B0E58900FEE67E /* CoustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomCell.swift; sourceTree = "<group>"; };
 		95F4039A27AB7D0500C3584B /* TableView2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F4039D27AB7D0500C3584B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95F4039F27AB7D0500C3584B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				95F4039D27AB7D0500C3584B /* AppDelegate.swift */,
 				95F4039F27AB7D0500C3584B /* SceneDelegate.swift */,
 				95F403A127AB7D0500C3584B /* ViewController.swift */,
+				950230AE27B0E58900FEE67E /* CoustomCell.swift */,
 				95F403B327ABC3B500C3584B /* SecondViewController.swift */,
 				95F403B127AB9F3C00C3584B /* RealmUser.swift */,
 				95F403A327AB7D0500C3584B /* Main.storyboard */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				950230AF27B0E58900FEE67E /* CoustomCell.swift in Sources */,
 				95F403A227AB7D0500C3584B /* ViewController.swift in Sources */,
 				95F4039E27AB7D0500C3584B /* AppDelegate.swift in Sources */,
 				95F403B227AB9F3C00C3584B /* RealmUser.swift in Sources */,
